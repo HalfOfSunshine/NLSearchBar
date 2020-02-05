@@ -16,6 +16,7 @@
 		7D99494323EAB9E600C553E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99494223EAB9E600C553E3 /* main.m */; };
 		7D99494D23EAB9E600C553E3 /* NLSearchBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99494C23EAB9E600C553E3 /* NLSearchBarDemoTests.m */; };
 		7D99495823EAB9E600C553E3 /* NLSearchBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99495723EAB9E600C553E3 /* NLSearchBarDemoUITests.m */; };
+		7D99496823EABA3000C553E3 /* NLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99496623EABA3000C553E3 /* NLSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7D99495323EAB9E600C553E3 /* NLSearchBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLSearchBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D99495723EAB9E600C553E3 /* NLSearchBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLSearchBarDemoUITests.m; sourceTree = "<group>"; };
 		7D99495923EAB9E600C553E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D99496623EABA3000C553E3 /* NLSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSearchBar.m; sourceTree = "<group>"; };
+		7D99496723EABA3000C553E3 /* NLSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSearchBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		7D99492423EAB9E400C553E3 = {
 			isa = PBXGroup;
 			children = (
+				7D99496523EABA1C00C553E3 /* NLSearchBar */,
 				7D99492F23EAB9E400C553E3 /* NLSearchBarDemo */,
 				7D99494B23EAB9E600C553E3 /* NLSearchBarDemoTests */,
 				7D99495623EAB9E600C553E3 /* NLSearchBarDemoUITests */,
@@ -135,6 +139,15 @@
 				7D99495923EAB9E600C553E3 /* Info.plist */,
 			);
 			path = NLSearchBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		7D99496523EABA1C00C553E3 /* NLSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				7D99496723EABA3000C553E3 /* NLSearchBar.h */,
+				7D99496623EABA3000C553E3 /* NLSearchBar.m */,
+			);
+			path = NLSearchBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 				7D99493223EAB9E400C553E3 /* AppDelegate.m in Sources */,
 				7D99494323EAB9E600C553E3 /* main.m in Sources */,
 				7D99493523EAB9E400C553E3 /* SceneDelegate.m in Sources */,
+				7D99496823EABA3000C553E3 /* NLSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
