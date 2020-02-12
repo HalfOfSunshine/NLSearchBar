@@ -22,6 +22,9 @@
 @end
 @implementation NLSearchBar
 @synthesize showsCancelButton = _showsCancelButton;
+@synthesize placeholder = _placeholder;
+@synthesize text = _text;
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -156,9 +159,22 @@
     return self.textField.placeholder;
 }
 
+- (void)setPlaceholder:(NSString *)placeholder{
+	if (self.textField.placeholder != placeholder) {
+		self.textField.placeholder = placeholder;
+	}
+}
+
 - (NSString *)text{
     return self.textField.text;
 }
+
+- (void)setText:(NSString *)text{
+	if (self.textField.text != text) {
+		self.textField.text = text;
+	}
+}
+
 
 - (void)setShowsCancelButton:(BOOL)showsCancelButton{
     [self setShowsCancelButton:showsCancelButton animated:NO];
